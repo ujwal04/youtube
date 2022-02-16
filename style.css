@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto',sans-serif;
+}
+
+.material-icons{
+    color: rgb(83, 78, 78);
+    cursor: pointer;
+    padding: 0rem 1rem;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    padding: 1rem;
+}
+.navbarl{
+    display: flex;
+    align-items: center;
+    margin-top: .5rem;
+}
+.navbarl img{
+    width: 6rem;
+    margin-left: .5rem;
+}
+
+.navbarm form{
+    display: flex;
+    border: 2px solid white;
+    height: 2rem;
+    display: flex;
+    
+}
+
+.navbarm input{
+    width: 40rem;
+    height: 2rem; 
+}
+
+.navbarm button{
+    height: 2rem;
+    padding-top: 4px;
+}
+
+.navbarr{
+    margin-top: 1rem;
+}
+
+.mainBody{
+    height: calc(100vh - 4rem);
+    display: flex;
+    overflow: hidden;
+   
+}
+
+.asideSection{
+    height: calc(100vh- 4rem);
+    width:16rem;
+    background-color: white;
+  
+    
+}
+
+
+.asideCategories{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.category{
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.category:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.text{
+    margin-left: 0.5rem;
+    
+}
+
+hr{
+    height: 1px;
+    background-color: lightgrey;
+    border: none;
+}
+
+.videos{
+    background-color:whitesmoke;
+    width: 100vw;
+    height: 100vh;
+    padding: 2rem 2rem;
+    border-top: 1px solid white;
+    overflow-y: scroll;
+    
+}
+
+.videosContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.video{
+    width: 20rem;
+    margin-right: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.videoThumbNail{
+    width:22vw;
+    height: 25vh;
+}
+
+.videoThumbNail img{
+
+    height: 25vh;
+    width: 22vw;
+}
+
+.author img{
+
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    margin-right: 1.5rem;
+}
+
+.videoDetails{
+    display: flex;
+    margin-top: 1rem;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+
+}
+.title h3{
+    color: black;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.title a{
+    text-decoration: none;
+    color: lightgrey;
+    font-size: 1rem;
+    
+}
+
+h1{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: black;
+    margin-left: 2.9rem;
+}
+.suggestionsContainer{
+    height: 6rem;
+    display: flex;
+    margin-left: 18rem;
+    
+    
+    
+}
+.suggestions button{
+    
+    
+    border-radius: 109px;
+    display: flex;
+    width: 4rem;
+    color: white;
+    background-color: black;
+    height: 3rem;
+    text-align: center;
+    justify-content: center;
+    padding:13px 1rem;
+    margin: 1.111rem .5rem;
+    
+    
+    
+
+}
+
+.suggestions2 button{
+    border: 0px solid black;
+    border-radius: 109px;
+    display: flex;
+    width: 6rem;
+    height: 3rem;
+    text-align: center;
+    justify-content: center;
+    padding:13px 1rem;
+    margin: 1.111rem .5rem;
+    
+}
